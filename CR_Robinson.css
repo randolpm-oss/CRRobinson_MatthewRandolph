@@ -1,0 +1,110 @@
+
+/* Matthew Randolph
+   CR_Robinson.css
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page heading */
+body::before {
+    content: "CR Robinson Country Route Finder";
+    display: block;
+    width: 100%;
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+/* Input section */
+p {
+    background-color: white;
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Label */
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Style for the input box of the country code */
+input {
+    padding: 10px;
+    width: 130px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* adding a focus to the input box  */
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 4px rgba(37, 99, 235, 0.4);
+}
+
+/* styling the button */
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* changing the color of the button when hovering over it */
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Results section */
+#pathInfo {
+    background-color: white;
+    width: 300px;
+    min-height: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* getting rid of bullet pints and pushing the country list to the middle */
+#pathInfo ul {
+    list-style: none;
+    padding-right: 40px;
+}
+
+/* styling the individual countrys in the list */
+#pathInfo li {
+    background-color: #e8f0fe;
+    color: #1e3a5f;
+    font-weight: bold;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+

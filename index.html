@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- 
+  Matthew Randolph
+  
+  index.html
+  
+  This is the one page file that creates the html for the CR_Robisnon 
+  interview technical project
+  This webpage will recive a three chericter code associated with a country 
+  and return all the countrys between the united states and that countey (inclusive)
+  
+  
+-->
+<html>
+<head>
+	<title>CR Robinson Technical Project</title>
+	<meta charset="utf-8" />
+	<script src= "https://code.jquery.com/jquery-4.0.0.min.js"></script>
+	<script src="CR_Robinson.js" defer></script>
+	<link href="CR_Robinson.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+
+<!-- Text box to imput the three cherecter country code -->
+<p>
+  <label for="countryCode">Country Code:</label>
+  <input type="text" name="countryCode" id="cc">
+  <button type="button" id="getPath">Get Path</button>
+</p>
+
+<!-- location for the path info to be dispalyed into -->
+<section id="pathInfo"></section>
+
+</body>
+
+</html>
+
