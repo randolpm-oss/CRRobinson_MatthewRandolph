@@ -1,6 +1,6 @@
 
 /* Matthew Randolph
-   CR_Robinson.css
+   CH_Robinson.css
 */
 
 body {
@@ -17,7 +17,7 @@ body {
 
 /* Page heading */
 body::before {
-    content: "CR Robinson Country Route Finder";
+    content: "CH Robinson Country Route Finder";
     display: block;
     width: 100%;
     background-color: #1e3a5f;
