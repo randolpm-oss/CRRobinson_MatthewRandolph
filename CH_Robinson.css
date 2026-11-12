@@ -2,7 +2,7 @@
 /* Matthew Randolph
    CH_Robinson.css
 */
-
+/* setting up the apperences that will be inherited by the rest of the tags and setting up page alighnment */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f4f8;
@@ -28,7 +28,7 @@ body::before {
     padding: 30px 0;
 }
 
-/* instructyion styling */
+/* instruction styling */
 h6 {
     color: red;
     width: 45%;
