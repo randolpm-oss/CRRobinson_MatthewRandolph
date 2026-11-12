@@ -2,7 +2,7 @@ $(main);
 
 function main(){
 	loadRoutes();
-	$("#getPath").click(displayPath);
+	$("#getRoute").click(displayPath);
 }
 
 function displayPath(e){
