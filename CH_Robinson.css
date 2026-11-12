@@ -28,6 +28,10 @@ body::before {
     padding: 30px 0;
 }
 
+/* instructyion styling */
+h6{color:red;
+   width: 30%;
+}
 /* Input section */
 p {
     background-color: white;
