@@ -15,7 +15,7 @@ function displayPath(e){
   	let path = JSON.parse(localStorage.getItem(destCode));
   	
   	if (path == null){
-  		$("#pathInfo").html("<ul><li> Not a Valid Destination </li></ul>");
+  		$("#pathInfo").html("<ul><li> Please enter a valid code to recive your route </li></ul>");
   		return;
   	}
   	
