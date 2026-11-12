@@ -29,9 +29,13 @@ body::before {
 }
 
 /* instructyion styling */
-h6{color:red;
-   width: 30%;
+h6 {
+    color: red;
+    width: 30%;
+    align-self: flex-start;
+    margin-left: 20px;
 }
+
 /* Input section */
 p {
     background-color: white;
